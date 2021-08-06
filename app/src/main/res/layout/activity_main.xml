@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Availavbale Memory" />
+
+            <TextView
+                android:id="@+id/available_Memory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0.0" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Usage memory" />
+
+            <TextView
+                android:id="@+id/uasge_Memory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0.0" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cpu Temp" />
+
+            <TextView
+                android:id="@+id/cpu_temperature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="0.0" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total Cpu Usage" />
+
+            <TextView
+                android:id="@+id/totalCpuUsage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0.0" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="cores usage" />
+
+            <TextView
+                android:id="@+id/coresUsage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="0.0" />
+
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Usage percent" />
+
+            <TextView
+                android:id="@+id/precentagecpuusage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="0.0" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cores Info" />
+
+            <TextView
+                android:id="@+id/coersInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="------" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
